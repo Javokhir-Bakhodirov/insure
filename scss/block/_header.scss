@@ -1,0 +1,44 @@
+:root {
+	--bg-color: #fff;
+	--navbar-link: #837d88;
+	--mode: #000;
+	--mode-title: #2d2641;
+}
+
+.mode {
+	--bg-color: #000;
+	--navbar-link: #fff;
+	--mode: #fff;
+	--mode-title: #fff;
+}
+
+.header-logo {
+	color: var(--mode);
+}
+
+.mode-btn {
+	border-color: var(--mode);
+}
+
+.hamburger,
+.lines,
+.close_btn {
+	color: var(--mode);
+}
+
+.close_btn {
+	display: none;
+}
+
+.view {
+	display: block;
+}
+.show {
+	display: inline;
+}
+
+@media (max-width: 770px) {
+	.header-section {
+		padding-bottom: 0;
+	}
+}
